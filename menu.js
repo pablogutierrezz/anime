@@ -70,10 +70,7 @@ function darkMode() {
 modeDark.addEventListener("click",e=>{
     if(e.target.matches(".moon")  || e.target.matches(".sun")){
         modeDark.classList.toggle("active")
-    }
-    // dataDark.forEach(el=> el.classList.toggle("dark"))
-    // dataDark2.classList.toggle("dark2")
-    
+    }    
     if(e.target.matches(".moon")){
            darkMode()
     }
@@ -103,7 +100,7 @@ document.addEventListener("DOMContentLoaded",e=>{
 })
 form.addEventListener("submit",e=>{
     e.preventDefault()
-    fetch("https://formsubmit.co/ajax/pablostk54@gmail.com",{
+    fetch("https://formsubmit.co/ajax/gutierrezpablo678@gmail.com",{
         method: "POST",
         body: new FormData(e.target)
     })
